@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Пробігаюсь по 20 сторінкам сайту(в кожній по 50 фільмів)
-for i in range(0,21):
+for i in range(1,21):
     #Створюю змінну з посиланням на сайт
     url = f"https://ru.kinorium.com/collections/critics/131/?order=sequence&page={i}&perpage=50&show_viewed=1"
     # Роблю get запрос
